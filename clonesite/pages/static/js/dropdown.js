@@ -6,7 +6,7 @@ var bigmama = document.getElementsByTagName('html')[0];
     var listys = document.querySelectorAll('a[data-name="NAV_SUBSECTION_PARENT"]');
     var TheReport = document.querySelectorAll('[data-name="NAV_DROPDOWN"]')[0];
     var Textbook = document.querySelectorAll('[data-name="NAV_DROPDOWN"]')[1];
-    console.log(Textbook.childNodes);
+    //console.log(Textbook.childNodes);
     for (var i = 0; i < listys.length; i++) {
       listys[i].addEventListener('mouseenter', forSections);
     };
