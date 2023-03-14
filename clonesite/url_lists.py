@@ -22,8 +22,8 @@ def extractHtml(baseurl,namefile):
     f.write(str(soup))
     f.close()
 
-baseurl = 'https://www.classcentral.com'
-extractHtml(baseurl,'report-feed-.xml')
+baseurl = 'https://www.classcentral.com/report/online-learning-deals/'
+extractHtml(baseurl,'report-online-learning-deals.html')
 
 class ListOfUrls:
 
@@ -64,7 +64,7 @@ class ListOfUrls:
         return self.name_views
             
 
-file_html = open("C:/Users/joser/OneDrive/Documentos/Cursos/curso-python/prueba miami/clonesite/index.html", "r", encoding = 'ISO-8859-1')
+file_html = open("C:/Users/joser/OneDrive/Documentos/Cursos/curso-python/prueba miami/class-central-clon/clonesite/index.html", "r", encoding = 'ISO-8859-1')
 html = file_html.read()
 pattern='<a.*href="[^"]*"'
 

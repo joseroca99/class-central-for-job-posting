@@ -787,3 +787,12 @@ class ReportUdemyTopCoursesView(TemplateView):
 class ReportWritingFreeOnlineCoursesView(TemplateView):
     template_name = 'report-writing-free-online-courses-.html'
 
+class ReportWritingFreeOnlineCoursesView(TemplateView):
+    template_name = 'report-writing-free-online-courses-.html'
+
+class ReportOnlineLearningDeals(TemplateView):
+    template_name = 'report-online-learning-deals.html'
+
+class ReportCategoryBestCourses(TemplateView):
+    template_name = 'report-category-best-courses.html'
+

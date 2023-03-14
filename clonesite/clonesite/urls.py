@@ -282,7 +282,8 @@ urlpatterns = [
     path('report/open-university-insiders-perspective/',ReportOpenUniversityInsidersPerspectiveView.as_view(), name='report-open-university-insiders-perspective-'),
     path('report/udemy-layoffs/',ReportUdemyLayoffsView.as_view(), name='report-udemy-layoffs-'),
     path('report/udemy-top-courses/',ReportUdemyTopCoursesView.as_view(), name='report-udemy-top-courses-'),
-    path('report/writing-free-online-courses/',ReportWritingFreeOnlineCoursesView.as_view(), name='report-writing-free-online-courses-'),
+    path('report/online-learning-deals/',ReportOnlineLearningDeals.as_view(), name='report-online-learning-deals'),
+    path('report/category/best-courses/',ReportCategoryBestCourses.as_view(), name='report-category-best-courses'),
 
 
 
